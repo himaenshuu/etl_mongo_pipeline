@@ -3,9 +3,7 @@ from pymongo import MongoClient
 import pandas as pd
 
 def to_mongo(df: pd.DataFrame, db_name: str, collection_name: str):
-    """Loads the DataFrame into MongoDB."""
     
-    # Define MongoDB connection (local or remote)
     client = MongoClient("mongodb://localhost:27017/")  # Use your MongoDB connection URI
     db = client[db_name]  # Specify the database name
     collection = db[collection_name]  # Specify the collection name
