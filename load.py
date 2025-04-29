@@ -9,7 +9,7 @@ def to_mongo(df: pd.DataFrame, db_name: str, collection_name: str):
     collection = db[collection_name]  # Specify the collection name
 
     try:
-        records = df.to_dict(orient='records')  # Convert DataFrame to a list of dicts
+        records = df.to_dict(orient='records')  
         collection.insert_many(records) 
         print("Data loaded successfully into MongoDB")
     except Exception as e:
