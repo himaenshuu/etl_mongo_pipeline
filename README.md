@@ -46,7 +46,7 @@ Ensure that MongoDB is running locally or update the MongoDB connection URI in `
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/etl-mongo-pipeline.git
+git clone https://github.com/himaenshuu/etl-mongo-pipeline.git
 cd etl-mongo-pipeline
 ```
 
