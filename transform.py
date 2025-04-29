@@ -13,8 +13,6 @@ def clean_sales_data(df: pd.DataFrame) -> pd.DataFrame:
     # Handle missing values: Fill or drop
     df.fillna({'amount': 0}, inplace=True)
     
-    # Any other transformations as needed
-    # For example: Extract date parts for easier analysis (e.g., year, month)
     df['Year'] = df['Year']
     df['Month'] = df['Month']
     
