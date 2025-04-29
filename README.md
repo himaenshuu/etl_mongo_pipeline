@@ -10,10 +10,10 @@ This project demonstrates a basic **ETL (Extract, Transform, Load)** pipeline us
 
 etl_project/
 │
-│ ├── extract.py # Extract data from CSV
-│ ├── transform.py # Clean/transform data
-│ ├── load.py # Load data into MongoDB
-│ └── run_etl.py # Orchestrates the ETL process
+|── extract.py # Extract data from CSV
+│── transform.py # Clean/transform data
+│── load.py # Load data into MongoDB
+│── run_etl.py # Orchestrates the ETL process
 │
 ├── sales_data.csv # Sample raw data file
 ├── requirements.txt # Python dependencies
@@ -82,14 +82,6 @@ Add any required libraries to `requirements.txt` if missing.
 
 - You can replace the CSV source or MongoDB collection name by modifying the parameters in `run_etl.py`.
 - This is a simplified version for educational or POC purposes. For production, consider adding logging, validation, and error handling.
-
----
-
-## 📧 Contact
-
-For questions or feedback, contact [Himanshu Raj](nebula3477@gmail.com)
-
-```
 
 ---
 
