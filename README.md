@@ -84,6 +84,3 @@ Add any required libraries to `requirements.txt` if missing.
 - This is a simplified version for educational or POC purposes. For production, consider adding logging, validation, and error handling.
 
 ---
-
-Let me know if you'd like the README saved as a file or extended with badges, visuals, or MongoDB setup steps.
-```
