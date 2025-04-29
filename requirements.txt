@@ -1,4 +1,2 @@
 pandas
-sqlalchemy
-psycopg2-binary
 pymongo
