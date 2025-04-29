@@ -81,6 +81,5 @@ Add any required libraries to `requirements.txt` if missing.
 ## 📌 Notes
 
 - You can replace the CSV source or MongoDB collection name by modifying the parameters in `run_etl.py`.
-- This is a simplified version for educational or POC purposes. For production, consider adding logging, validation, and error handling.
 
 ---
