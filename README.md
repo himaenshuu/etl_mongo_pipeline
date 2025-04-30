@@ -31,16 +31,6 @@ etl_project/
 
 ---
 
-## 🧪 Example: Running the Pipeline
-
-```bash
-python etl/run_etl.py
-````
-
-Ensure that MongoDB is running locally or update the MongoDB connection URI in `load.py`.
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
