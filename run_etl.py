@@ -12,7 +12,7 @@ def run_etl():
     # Step 2: Transform the data (cleaning)
     df_cleaned = clean_sales_data(df)
     
-    # Step 3: Load the cleaned data into PostgreSQL
+    # Step 3: Load the cleaned data into MongoDB
     to_mongo(df_cleaned,"new_DB","DB")
 
 if __name__ == "__main__":
