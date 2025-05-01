@@ -9,7 +9,6 @@ This project demonstrates a basic **ETL (Extract, Transform, Load)** pipeline us
 ```
 
 etl_project/
-│
 |── extract.py # Extract data from CSV
 │── transform.py # Clean/transform data
 │── load.py # Load data into MongoDB
